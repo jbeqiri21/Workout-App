@@ -1,9 +1,13 @@
 /* src/index.css */
-@tailwind base
+
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
+
+
+/* Ensure no border or outline is applied */
 
 body {
   margin: 0;
@@ -12,6 +16,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #000; /* Change this to match your theme */
 }
 
 code {
@@ -49,4 +54,10 @@ code {
 
 .hero-subheading {
   @apply text-xl text-white mb-8;
+}
+
+.rounded-bottom {
+  border-radius: 0 0 40px 40px; /* Adjust values as needed */
+  background-color: rgba(0, 0, 0, 0.3); /* Darker background for border */
+  border: none; /* No white border */
 }
