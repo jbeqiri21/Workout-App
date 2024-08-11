@@ -6,6 +6,9 @@ import About from './components/About';
 import Login from './components/Login';
 import Register from './components/Register';
 import AIWorkout from './components/AIWorkout';
+import Header from './components/Header';
+import './index.css'; 
+
 
 /**
  * App Component
