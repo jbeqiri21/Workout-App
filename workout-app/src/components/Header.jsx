@@ -35,7 +35,7 @@ const Header = () => {
         {/* Navbar Links */}
         <nav className={`lg:flex lg:items-center lg:space-x-8 ${menuOpen ? 'block' : 'hidden'} absolute lg:relative top-full left-0 w-full lg:w-auto lg:bg-transparent bg-gray-800 lg:border-none border-t border-gray-700 lg:rounded-none rounded-lg transition-all duration-300 ease-in-out`}>
           <a href="/" className="block text-white hover:text-gray-400 py-2 px-4 rounded-lg border-2 border-transparent hover:border-white transition-all duration-300">Home</a>
-          <a href="/exercises" className="block text-white hover:text-gray-400 py-2 px-4 rounded-lg border-2 border-transparent hover:border-white transition-all duration-300">Exercises</a>
+          <a href="/src/components/Exercises" className="block text-white hover:text-gray-400 py-2 px-4 rounded-lg border-2 border-transparent hover:border-white transition-all duration-300">Exercises</a>
           <a href="/about" className="block text-white hover:text-gray-400 py-2 px-4 rounded-lg border-2 border-transparent hover:border-white transition-all duration-300">About</a>
 
           {/* Dropdown */}
