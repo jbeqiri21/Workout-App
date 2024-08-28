@@ -7,6 +7,8 @@ import Login from './components/Login';
 import Register from './components/Register';
 import AIWorkout from './components/AIWorkout';
 import Header from './components/Header';
+import Footer from './components/Footer';
+import ExercisesPage from "./components/Exercises";
 import './index.css'; 
 
 
@@ -27,6 +29,7 @@ function App() {
                 <Route path="/login" element={<Login />} />
                 <Route path="/register" element={<Register />} />
                 <Route path="/ai-workout" element={<AIWorkout />} />
+                <Route path="/exercises" element={<ExercisesPage />} />
             </Routes>
         </Router>
     );
