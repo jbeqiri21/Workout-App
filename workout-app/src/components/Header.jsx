@@ -18,7 +18,7 @@ const Header = () => {
       <div className="container mx-auto flex justify-between items-center py-4 px-6">
         {/* Logo or Brand Name */}
         <div className="text-2xl font-bold">
-          <a href="/" className="text-white hover:text-gray-400">YourBrand</a>
+          <a href="/" className="text-white hover:text-gray-400">Fitness Buddy</a>
         </div>
 
         {/* Mobile Menu Button */}

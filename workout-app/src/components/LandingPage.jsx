@@ -8,7 +8,6 @@
  * The design includes a full-screen background video, a navigation header, and a 
  * dynamic survey modal that collects information to generate a personalized workout plan.
  */
-
 import React, { useState } from 'react'; // Import React and the useState hook
 import { Link } from 'react-router-dom'; // Import Link component from react-router-dom
 import { ChevronDownIcon } from '@heroicons/react/24/outline'; // Import an icon from Heroicons v2
